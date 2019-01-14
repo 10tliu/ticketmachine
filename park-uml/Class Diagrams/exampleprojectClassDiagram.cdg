@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ReplyMessage">
+  <ClassDiagramComponents>
+    <Class name="Entity" package="org.tristan.parking.model" visibility="public" xPosition="-3.0" yPosition="743.0">
+      <Fields>
+        <Field name="field_A" type="String" visibility="private"/>
+        <Field name="field_B" type="String" visibility="private"/>
+        <Field name="field_C" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="ReplyMessage" package="org.tristan.parking.model" visibility="public" xPosition="22.0" yPosition="208.0">
+      <Fields>
+        <Field name="code" type="Integer" visibility="private"/>
+        <Field name="debugMessage" type="String" visibility="private"/>
+        <Field name="entities" type="EntityList" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="EntityList" package="org.tristan.parking.model" visibility="public" xPosition="22.0" yPosition="436.0">
+      <Fields>
+        <Field name="entities" type="List&lt;ParkingMeter&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Interface name="ParkMeterFacade" package="org.tristan.parking.model" visibility="public" xPosition="619.0" yPosition="552.0">
+      <Methods/>
+    </Interface>
+    <Interface name="ParkMeterDAO" package="org.tristan.parking.model" visibility="public" xPosition="556.0" yPosition="711.0">
+      <Methods>
+        <Method name="createTickets" returnType="Tickets" visibility="public">
+          <Argument type="Tickets" name="ticket"/>
+        </Method>
+        <Method name="deleteTickets" returnType="Integer" visibility="public">
+          <Argument type="Integer" name="id"/>
+        </Method>
+        <Method name="retrieveEntity" returnType="Integer" visibility="public">
+          <Argument type="Integer" name="id"/>
+        </Method>
+        <Method name="retrieveAllEntities" returnType="List&lt;Ticket&gt;" visibility="public"/>
+        <Method name="retrieveMatchingEntities" returnType="Entity" visibility="public">
+          <Argument type="Entity" name="entityTempate"/>
+        </Method>
+        <Method name="updateTickets" returnType="Tickets" visibility="public">
+          <Argument type="Tickets" name="tickets"/>
+        </Method>
+        <Method name="deleteAllTickets" returnType="void" visibility="public"/>
+      </Methods>
+    </Interface>
+    <Interface name="RestInterface" package="org.tristan.parking.model" visibility="public" xPosition="246.0" yPosition="19.0">
+      <Methods>
+        <Method name="retrieveMatchingEntites" returnType="Entity" visibility="public">
+          <Argument type="Entity" name="entityTempate"/>
+        </Method>
+        <Method name="retrieveEntity" returnType="Integer" visibility="public">
+          <Argument type="Integer" name="id"/>
+        </Method>
+      </Methods>
+    </Interface>
+    <Interface name="ParkMeterFactory" package="org.tristan.parking.model" visibility="public" xPosition="579.0" yPosition="173.0">
+      <Methods>
+        <Method name="getServiceFacade" returnType="ParkMeterFacade" visibility="public"/>
+        <Method name="createParkMeterFacade" returnType="void" visibility="public"/>
+      </Methods>
+    </Interface>
+    <Interface name="WebUiJsp_do_not_generate" package="org.tristan.parking.model" visibility="public" xPosition="881.0" yPosition="19.0">
+      <Methods/>
+    </Interface>
+    <Class name="Ticket" package="" visibility="public" xPosition="322.0" yPosition="552.0">
+      <Fields>
+        <Field name="ticketsID" type="Integer" visibility="private"/>
+        <Field name="startTime" type="Date" visibility="private"/>
+        <Field name="endTime" type="Date" visibility="private"/>
+        <Field name="ticketPrice" type="Double" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Interface name="TicketDAO" package="" visibility="public" xPosition="322.0" yPosition="329.0">
+      <Methods>
+        <Method name="createTicket" returnType="void" visibility="public"/>
+      </Methods>
+    </Interface>
+    <Class name="TicketsSchedule" package="" visibility="public" xPosition="903.0" yPosition="711.0">
+      <Fields>
+        <Field name="ticketScheduleID" type="integer" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Interface name="TicketsScheduleDAO" package="" visibility="public" xPosition="869.0" yPosition="420.0">
+      <Methods/>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation name="createsAndAccesses" source="org.tristan.parking.model.ParkMeterFactory" target="org.tristan.parking.model.ParkMeterFacade" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="useReplyMessage" source="org.tristan.parking.model.RestInterface" target="org.tristan.parking.model.ReplyMessage" sourceCardinality="1..1" targetCardinality="0..*"/>
+    <UseRelation name="usesObjectFactoryToGetService" source="org.tristan.parking.model.WebUiJsp_do_not_generate" target="org.tristan.parking.model.ParkMeterFactory" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="usesTicket" source="TicketDAO" target="Ticket" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="usesServiceFacade" source="org.tristan.parking.model.RestInterface" target="org.tristan.parking.model.ParkMeterFacade" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="hasEntityList" source="org.tristan.parking.model.ReplyMessage" target="org.tristan.parking.model.EntityList" type="Composition" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <UseRelation name="usesObjectFactoryToGetService" source="org.tristan.parking.model.RestInterface" target="org.tristan.parking.model.ParkMeterFactory" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="usesEntityDao" source="org.tristan.parking.model.ParkMeterFacade" target="org.tristan.parking.model.ParkMeterDAO" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="org.tristan.parking.model.ParkMeterFacade" target="org.tristan.parking.model.ParkMeterDAO"/>
+    <UseRelation name="usesServiceFacade" source="org.tristan.parking.model.WebUiJsp_do_not_generate" target="org.tristan.parking.model.ParkMeterFacade" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

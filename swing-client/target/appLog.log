@@ -1,0 +1,10 @@
+19:34:28.517 [main] INFO  org.tristan.parking.swingcient.MainApp - MainApp started
+19:34:28.530 [main] INFO  org.tristan.parking.swingcient.MainApp - loading properties from config.properties
+19:34:28.530 [main] INFO  org.tristan.parking.swingcient.MainApp - Starting with configuration {dataFileLocation=./localDataFile.xml, baseUrl=http://localhost:8680/, scheduleIntervalSeconds=125, retryAttempts=5, retryIntervalSeconds=11, scheduleEnabled=false}
+19:34:28.678 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\devel\gitrepos\Assessment\park\swing-client\.\localDataFile.xml
+19:34:28.679 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\devel\gitrepos\Assessment\park\swing-client\.\localDataFile.xml
+19:34:28.706 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <entities/>
+</entityList>
+

@@ -1,0 +1,3 @@
+org\tristan\parking\web\rest\RestApp.class
+org\tristan\parking\web\rest\ExampleProjectRestImpl.class
+org\tristan\parking\web\WebObjectFactory.class

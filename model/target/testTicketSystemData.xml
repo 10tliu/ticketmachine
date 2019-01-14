@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replyMessage>
+    <machineId>200</machineId>
+    <location>debug message 1</location>
+	<stayType>True</stayType>
+    <scheduleList>
+        <schedules>
+            <schedule>
+                <schduleID>0</scheduleID>
+                <startTime></startTime>
+                <hourlyRate>1.0</hourlyRate>
+            </schedule>
+            <schedule>
+                <scheduleID>1</scheduleID>
+                <startTime></startTime>
+                <hourlyRate>2.0</hourlyRate>
+            </schedule>
+            <schedule>
+                <id>2</id>
+                <startTime></startTime>
+                <hourlyRate>3.0</hourlyRate>
+            </schedule>
+        </schedules>
+    </scheduleList>
+</replyMessage>

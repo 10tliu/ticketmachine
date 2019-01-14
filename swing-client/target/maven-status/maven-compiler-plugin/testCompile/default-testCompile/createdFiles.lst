@@ -1,0 +1,3 @@
+org\tristan\parking\swingcient\test\manual\EntitySingleClientLoaderTest.class
+org\tristan\parking\swingcient\test\manual\ScheduledEntityClientLoaderTest.class
+org\tristan\parking\swingcient\test\manual\RestClientJerseyImplTest.class

@@ -1,0 +1,321 @@
+14:10:06.038 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\devel\gitrepos\Assessment\park\dao-jaxb\target\testDaofile.xml
+14:10:06.038 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\devel\gitrepos\Assessment\park\dao-jaxb\target\testDaofile.xml
+14:10:06.054 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <entities/>
+</entityList>
+
+14:10:06.054 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_0, field_B=field_B_0, field_C=field_C_0}
+14:10:06.070 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>1</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+14:10:06.070 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_1, field_B=field_B_1, field_C=field_C_1}
+14:10:06.070 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>2</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>2</id>
+            <field_A>field_A_1</field_A>
+            <field_B>field_B_1</field_B>
+            <field_C>field_C_1</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+14:10:06.070 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_2, field_B=field_B_2, field_C=field_C_2}
+14:10:06.101 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>3</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>2</id>
+            <field_A>field_A_1</field_A>
+            <field_B>field_B_1</field_B>
+            <field_C>field_C_1</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_2</field_A>
+            <field_B>field_B_2</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+14:10:06.101 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}
+14:10:06.101 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>2</id>
+            <field_A>field_A_1</field_A>
+            <field_B>field_B_1</field_B>
+            <field_C>field_C_1</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_2</field_A>
+            <field_B>field_B_2</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+        <entity>
+            <id>4</id>
+            <field_A>field_A_3</field_A>
+            <field_B>field_B_3</field_B>
+            <field_C>field_C_3</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+14:10:06.117 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - deleting  entity:2
+14:10:06.117 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_2</field_A>
+            <field_B>field_B_2</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+        <entity>
+            <id>4</id>
+            <field_A>field_A_3</field_A>
+            <field_B>field_B_3</field_B>
+            <field_C>field_C_3</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+14:10:06.132 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updating entity: Entity{id=3, field_A=field_A_2, field_B=field_B_2, field_C=field_C_2}
+14:10:06.132 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - update template: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=null}
+14:10:06.132 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_Update</field_A>
+            <field_B>field_B_Update</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+        <entity>
+            <id>4</id>
+            <field_A>field_A_3</field_A>
+            <field_B>field_B_3</field_B>
+            <field_C>field_C_3</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+14:10:06.132 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updated entity: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=field_C_2}
+14:10:06.132 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - retreived entity: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=field_C_2}
+14:10:06.148 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - searching for: Entity{id=4, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}
+14:10:06.148 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - using template : Entity{id=null, field_A=null, field_B=field_B_3, field_C=null}
+14:10:06.148 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - found : Entity{id=4, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}
+16:49:46.170 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\devel\gitrepos\Assessment\park\dao-jaxb\target\testDaofile.xml
+16:49:46.173 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\devel\gitrepos\Assessment\park\dao-jaxb\target\testDaofile.xml
+16:49:46.183 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <entities/>
+</entityList>
+
+16:50:32.436 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\devel\gitrepos\Assessment\park\dao-jaxb\target\testDaofile.xml
+16:50:32.439 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\devel\gitrepos\Assessment\park\dao-jaxb\target\testDaofile.xml
+16:50:32.447 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <entities/>
+</entityList>
+
+16:50:32.448 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_0, field_B=field_B_0, field_C=field_C_0}
+16:50:32.460 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>1</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+16:50:32.460 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_1, field_B=field_B_1, field_C=field_C_1}
+16:50:32.466 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>2</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>2</id>
+            <field_A>field_A_1</field_A>
+            <field_B>field_B_1</field_B>
+            <field_C>field_C_1</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+16:50:32.466 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_2, field_B=field_B_2, field_C=field_C_2}
+16:50:32.472 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>3</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>2</id>
+            <field_A>field_A_1</field_A>
+            <field_B>field_B_1</field_B>
+            <field_C>field_C_1</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_2</field_A>
+            <field_B>field_B_2</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+16:50:32.472 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}
+16:50:32.478 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>2</id>
+            <field_A>field_A_1</field_A>
+            <field_B>field_B_1</field_B>
+            <field_C>field_C_1</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_2</field_A>
+            <field_B>field_B_2</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+        <entity>
+            <id>4</id>
+            <field_A>field_A_3</field_A>
+            <field_B>field_B_3</field_B>
+            <field_C>field_C_3</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+16:50:32.489 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - deleting  entity:2
+16:50:32.495 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_2</field_A>
+            <field_B>field_B_2</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+        <entity>
+            <id>4</id>
+            <field_A>field_A_3</field_A>
+            <field_B>field_B_3</field_B>
+            <field_C>field_C_3</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+16:50:32.499 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updating entity: Entity{id=3, field_A=field_A_2, field_B=field_B_2, field_C=field_C_2}
+16:50:32.499 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - update template: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=null}
+16:50:32.504 [main] DEBUG org.tristan.parking.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_Update</field_A>
+            <field_B>field_B_Update</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+        <entity>
+            <id>4</id>
+            <field_A>field_A_3</field_A>
+            <field_B>field_B_3</field_B>
+            <field_C>field_C_3</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+16:50:32.506 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updated entity: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=field_C_2}
+16:50:32.507 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - retreived entity: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=field_C_2}
+16:50:32.510 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - searching for: Entity{id=4, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}
+16:50:32.510 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - using template : Entity{id=null, field_A=null, field_B=field_B_3, field_C=null}
+16:50:32.511 [main] DEBUG org.tristan.parking.dao.jaxbimpl.test.EntityDAOJaxbImplTest - found : Entity{id=4, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}
